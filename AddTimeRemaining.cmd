@@ -2,4 +2,4 @@
 
 set ScriptPath=%~dp0%AddTimeRemaining.ps1
 
-powershell -File %ScriptPath% -InputFilePath %*
+powershell -ExecutionPolicy Bypass -File %ScriptPath% -InputFilePath %*
